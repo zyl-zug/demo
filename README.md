@@ -3,7 +3,7 @@
 End-to-end ML pipeline predicting whether an order will arrive late, 
 deployed as a Streamlit app.
 
-**Live demo:** https://[your-app].streamlit.app
+**Live demo:** [https://zyl-supply-chain-risk.streamlit.app/]
 
 ## Business problem
 Predict probability of late delivery at order time, so logistics managers 
