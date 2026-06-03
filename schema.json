@@ -1,0 +1,151 @@
+{
+  "features": [
+    "Shipping Mode",
+    "Days for shipment (scheduled)",
+    "Type",
+    "Category Name",
+    "Order Region",
+    "Market",
+    "Customer Segment",
+    "Order Item Quantity",
+    "Order Item Product Price"
+  ],
+  "numeric_cols": [
+    "Days for shipment (scheduled)",
+    "Order Item Quantity",
+    "Order Item Product Price"
+  ],
+  "categorical_cols": [
+    "Shipping Mode",
+    "Type",
+    "Category Name",
+    "Order Region",
+    "Market",
+    "Customer Segment"
+  ],
+  "model_name": "XGBoost",
+  "leaderboard": {
+    "RandomForest": 0.7212,
+    "XGBoost": 0.7431
+  },
+  "categories": {
+    "Shipping Mode": [
+      "First Class",
+      "Same Day",
+      "Second Class",
+      "Standard Class"
+    ],
+    "Type": [
+      "CASH",
+      "DEBIT",
+      "PAYMENT",
+      "TRANSFER"
+    ],
+    "Category Name": [
+      "Accessories",
+      "As Seen on  TV!",
+      "Baby ",
+      "Baseball & Softball",
+      "Basketball",
+      "Books ",
+      "Boxing & MMA",
+      "CDs ",
+      "Cameras ",
+      "Camping & Hiking",
+      "Cardio Equipment",
+      "Children's Clothing",
+      "Cleats",
+      "Computers",
+      "Consumer Electronics",
+      "Crafts",
+      "DVDs",
+      "Electronics",
+      "Fishing",
+      "Fitness Accessories",
+      "Garden",
+      "Girls' Apparel",
+      "Golf Apparel",
+      "Golf Bags & Carts",
+      "Golf Balls",
+      "Golf Gloves",
+      "Golf Shoes",
+      "Health and Beauty",
+      "Hockey",
+      "Hunting & Shooting",
+      "Indoor/Outdoor Games",
+      "Kids' Golf Clubs",
+      "Lacrosse",
+      "Men's Clothing",
+      "Men's Footwear",
+      "Men's Golf Clubs",
+      "Music",
+      "Pet Supplies",
+      "Shop By Sport",
+      "Soccer",
+      "Sporting Goods",
+      "Strength Training",
+      "Tennis & Racquet",
+      "Toys",
+      "Trade-In",
+      "Video Games",
+      "Water Sports",
+      "Women's Apparel",
+      "Women's Clothing",
+      "Women's Golf Clubs"
+    ],
+    "Order Region": [
+      "Canada",
+      "Caribbean",
+      "Central Africa",
+      "Central America",
+      "Central Asia",
+      "East Africa",
+      "East of USA",
+      "Eastern Asia",
+      "Eastern Europe",
+      "North Africa",
+      "Northern Europe",
+      "Oceania",
+      "South America",
+      "South Asia",
+      "South of  USA ",
+      "Southeast Asia",
+      "Southern Africa",
+      "Southern Europe",
+      "US Center ",
+      "West Africa",
+      "West Asia",
+      "West of USA ",
+      "Western Europe"
+    ],
+    "Market": [
+      "Africa",
+      "Europe",
+      "LATAM",
+      "Pacific Asia",
+      "USCA"
+    ],
+    "Customer Segment": [
+      "Consumer",
+      "Corporate",
+      "Home Office"
+    ]
+  },
+  "numeric_ranges": {
+    "Days for shipment (scheduled)": {
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 2.931846509231715
+    },
+    "Order Item Quantity": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 2.127637533999191
+    },
+    "Order Item Product Price": {
+      "min": 9.989999771,
+      "max": 1999.98999,
+      "mean": 141.23254992870068
+    }
+  }
+}
